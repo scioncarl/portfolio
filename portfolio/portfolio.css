@@ -1,0 +1,77 @@
+header {
+  background-color: #f0f0f0; /* Ajoutez la couleur de fond souhaitée */
+}
+
+.containerh {
+  display: flex;
+  justify-content: space-between; /* Aligne les éléments horizontalement avec un espacement entre eux */
+  align-items: center; /* Centre les éléments verticalement */
+  padding: 20px; /* Ajoute de l'espace autour du contenu */
+}
+
+header h1 {
+  margin: 0; /* Supprime les marges par défaut */
+}
+
+nav ul {
+  list-style-type: none; /* Supprime les puces de la liste */
+  padding: 0; /* Supprime le remplissage par défaut de la liste */
+  margin: 0; /* Supprime les marges par défaut de la liste */
+}
+
+nav ul li {
+  display: inline; /* Affiche les éléments de liste en ligne */
+  margin-right: 20px; /* Ajoute un espacement entre les éléments de la liste */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Supprime la marge à droite du dernier élément de la liste */
+}
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header, footer {
+  background-color: #b00316;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px 0;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+}
