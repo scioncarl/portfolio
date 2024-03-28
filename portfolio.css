@@ -1,6 +1,14 @@
 header {
   background-color: #f0f0f0; /* Ajoutez la couleur de fond souhaitée */
 }
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #b00316;; /* Vous pouvez ajuster la couleur de fond selon vos préférences */
+  z-index: 1000; /* Assurez-vous que le header soit au-dessus du reste du contenu */
+}
 
 .containerh {
   display: flex;
