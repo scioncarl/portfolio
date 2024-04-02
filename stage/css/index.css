@@ -1,0 +1,164 @@
+
+h1 {
+    font-size: 40px; 
+}
+h2{
+    font-size: 30px; 
+}
+h3{
+    font-size: 20px; 
+}
+.container {
+    text-align: center; /* Pour centrer le contenu textuel */
+}
+header {
+    width: 100%;
+    background-color: #f0f0f0;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    height: 400px;
+    background: url('https://content.jetpulp.fr/uploads/banniere_ampoule_google_update_b195377e2f.jpg') no-repeat center bottom fixed;
+    background-size: cover;
+}
+/*image logo*/
+.custom-image {
+    width: 13vw;
+    height: auto;
+    margin-left: 925px; /* Ajustez la valeur selon vos besoins */
+    margin-top: 110px;
+}
+.texte-sur-image {
+    position: absolute;
+    top: 58%; /* Positionne le haut du conteneur de texte au centre du conteneur parent */
+    left: 50%; /* Positionne la gauche du conteneur de texte au centre du conteneur parent */
+    transform: translate(90%, -50%); /* Ajuste la position du texte au centre du conteneur parent */
+    text-align: center; /* Centre le texte horizontalement */
+    color: #fff; /* Couleur du texte */
+  }
+  
+  .texte-sur-image h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+  }
+  
+  .texte-sur-image p {
+    font-size: 1.2em;
+  }
+/*bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #D48E3D;
+    padding: 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 20px;
+}
+section {
+    text-align: center;
+    padding: 50px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+/*bar */
+
+  /* presentation*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+   /* box-shadow: 0 0 10px rgba(0,0,0,0.1);*/
+}
+h1, h2 {
+    color: black;
+}
+p {
+    color: #292525;
+    line-height: 1.6;
+}
+.services {
+    margin-top: 20px;
+}
+.service {
+    margin-bottom: 20px;
+}
+.service h3 {
+    color: #007bff;
+}
+.contact {
+    margin-top: 20px;
+}
+.contact p {
+    margin-bottom: 10px;
+}
+
+/*formulair*/
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    color: black;
+}
+.img-fluid {
+    width: 500px; 
+    height: 400px; 
+}
+.color{
+    color: #292525;
+}
+.custom-sized-image {
+    width: 100vw; 
+    height: auto; 
+
+}
+button {
+    background-color: #D48E3D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #006400;
+}
+.error-message {
+    color: red;
+    margin-bottom: 16px;
+}
+/* formulaire*/
+
+footer {
+    width: 100%;
+    background-color: #D48E3D;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    bottom: 0;
+    font-family: "Script MT Bold";
+}
