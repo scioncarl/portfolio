@@ -6,21 +6,23 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #b00316;; /* Vous pouvez ajuster la couleur de fond selon vos préférences */
-  z-index: 1000; /* Assurez-vous que le header soit au-dessus du reste du contenu */
+  background-color: #b00316;
+  z-index: 1000;
+  height: 65px; /* Définissez une hauteur plus petite pour le header */
 }
 
 .containerh {
   display: flex;
-  justify-content: space-between; /* Aligne les éléments horizontalement avec un espacement entre eux */
-  align-items: center; /* Centre les éléments verticalement */
-  padding: 20px; /* Ajoute de l'espace autour du contenu */
-}
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Ajustez la taille du padding selon vos besoins */
+  text-align: center; /* Alignez le texte au centre */
+}  
 
 header h1 {
   margin: 0; /* Supprime les marges par défaut */
+  text-align: center; /* Alignez le texte au centre */
 }
-
 nav ul {
   list-style-type: none; /* Supprime les puces de la liste */
   padding: 0; /* Supprime le remplissage par défaut de la liste */
@@ -108,6 +110,10 @@ h1, h2 {
   -moz-box-shadow: 1px 1px 4px #000000;
 }
 
+
 footer {
+  background-color: #b00316;
+  color: #fff;
+  padding: 15px 0; /* Réduisez la taille du padding verticalement */
   text-align: center;
 }
